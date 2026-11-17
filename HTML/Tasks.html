@@ -1,0 +1,226 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZTRACKER | Tasks</title>
+
+    <link rel="icon" type="image/png" href="../ASSETS/LogoZTRACKER.png">
+    <link rel="stylesheet" href="../CSS/tasks.css">
+</head>
+
+<body>
+    <div class="dashboard">
+
+        <!-- LEFT SIDEBAR -->
+        <aside class="sidebar">
+
+            <a class="Logo" href="Home.html">
+                <img src="../ASSETS/LogoZTRACKER.png" alt="ZTRACKER Logo">
+                <h1>ZTRACKER</h1>
+                <span class="logo-subtitle">STUDENT ORGANIZER</span>
+            </a>
+
+            <div class="sidebar-label">MENU</div>
+
+            <nav class="navigation">
+                <a href="Home.html">
+                    <span class="nav-icon">⌂</span> HOME
+                </a>
+
+                <a href="Courses.html">
+                    <span class="nav-icon">▤</span> COURSES
+                </a>
+
+                <a href="Schedule.html">
+                    <span class="nav-icon">▦</span> SCHEDULE
+                </a>
+
+                <a class="active" href="Tasks.html">
+                    <span class="nav-icon">✓</span> TASKS
+                </a>
+            </nav>
+
+            <div class="sidebar-bottom">
+                <div class="sidebar-tip">
+                    <span class="tip-icon">✦</span>
+                    <p>
+                        <strong>Stay on track.</strong><br>
+                        Small steps make big progress.
+                    </p>
+                </div>
+
+                <button class="settings-button" type="button">
+                    ⚙ Settings
+                </button>
+            </div>
+
+        </aside>
+
+
+        <!-- MAIN CONTENT -->
+        <main class="main-container">
+
+            <section class="main-content">
+
+                <header class="page-header">
+                    <div>
+                        <p class="eyebrow">TASK MANAGEMENT</p>
+                        <h2>My Tasks</h2>
+                        <p class="page-subtitle">
+                            Keep track of assignments, deadlines, and activities.
+                        </p>
+                    </div>
+
+                    <div class="today-chip">
+                        <span class="today-dot"></span>
+                        Stay productive
+                    </div>
+                </header>
+
+
+                <!-- TASK SUMMARY -->
+                <section class="section-block">
+
+                    <div class="section-heading">
+                        <div>
+                            <p class="eyebrow">YOUR PROGRESS</p>
+                            <h3>Task overview</h3>
+                        </div>
+                    </div>
+
+
+                    <div class="task-summary">
+
+                        <article class="summary-card">
+                            <div class="summary-icon pending-icon">◷</div>
+                            <p>Pending tasks</p>
+                            <h2>0</h2>
+                            <span>Need your attention</span>
+                        </article>
+
+                        <article class="summary-card">
+                            <div class="summary-icon completed-icon">✓</div>
+                            <p>Completed tasks</p>
+                            <h2>0</h2>
+                            <span>Successfully finished</span>
+                        </article>
+
+                        <article class="summary-card">
+                            <div class="summary-icon overdue-icon">!</div>
+                            <p>Overdue tasks</p>
+                            <h2>0</h2>
+                            <span>Past their deadline</span>
+                        </article>
+
+                    </div>
+
+                </section>
+
+
+                <!-- TASK LIST -->
+                <section class="section-block">
+
+                    <div class="section-heading">
+                        <div>
+                            <p class="eyebrow">YOUR WORKLOAD</p>
+                            <h3>Task list</h3>
+                        </div>
+
+                        <button class="add-button" type="button">
+                            + Add task
+                        </button>
+                    </div>
+
+
+                    <div class="task-container">
+
+                        <div class="task-filter">
+                            <button class="filter-active" type="button">All tasks</button>
+                            <button type="button">Pending</button>
+                            <button type="button">Completed</button>
+                        </div>
+
+
+                        <div class="task-list">
+
+                            <div class="empty-tasks">
+                                <span class="empty-task-icon">✓</span>
+
+                                <h3>No tasks added yet</h3>
+
+                                <p>
+                                    Your assignments and activities
+                                    will appear here once you add them.
+                                </p>
+
+                                <button class="add-button" type="button">
+                                    + Create your first task
+                                </button>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </section>
+
+            </section>
+
+
+            <!-- RIGHT SIDEBAR -->
+            <aside class="right-sidebar">
+
+                <div class="right-sidebar-header">
+                    <p class="eyebrow">DON'T MISS OUT</p>
+                    <h2>Important tasks</h2>
+
+                    <p class="sidebar-description">
+                        Keep an eye on deadlines and priorities.
+                    </p>
+                </div>
+
+
+                <div class="upcoming-empty">
+                    <span class="empty-icon">✓</span>
+
+                    <h3>You're all caught up!</h3>
+
+                    <p>
+                        Your important and upcoming
+                        tasks will appear here.
+                    </p>
+                </div>
+
+
+                <div class="sidebar-divider"></div>
+
+
+                <div class="reminder-card">
+                    <span class="reminder-icon">✦</span>
+
+                    <div>
+                        <h3>A little reminder</h3>
+
+                        <p>
+                            Break larger assignments into
+                            smaller tasks to make them
+                            easier to complete.
+                        </p>
+                    </div>
+                </div>
+
+            </aside>
+
+        </main>
+
+    </div>
+
+
+    <footer class="footer">
+        <p>© 2026 ZTRACKER. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
